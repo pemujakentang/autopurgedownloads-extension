@@ -1,7 +1,7 @@
 {
     "name": "Downloads Auto-Wiper",
     "version": "1.1",
-    "description": "Deletes downloads on startup only if the device was off for at least 30 minutes.",
+    "description": "Deletes downloads on startup only if the device was off for at least 15 minutes.",
     "manifest_version": 3,
     "permissions": [
         "downloads",
