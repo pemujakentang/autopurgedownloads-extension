@@ -1,12 +1,10 @@
 {
-    "name": "Downloads Auto-Wiper",
-    "version": "1.1",
-    "description": "Deletes downloads on startup only if the device was off for at least 15 minutes.",
+    "name": "Downloads Auto-Purger",
+    "version": "1.0",
+    "description": "Automatically deletes local downloads and history on startup.",
     "manifest_version": 3,
     "permissions": [
-        "downloads",
-        "storage",
-        "alarms"
+        "downloads"
     ],
     "background": {
         "service_worker": "background.js"
