@@ -4,7 +4,9 @@
     "description": "Automatically deletes local downloads and history on startup.",
     "manifest_version": 3,
     "permissions": [
-        "downloads"
+        "downloads",
+        "storage",
+        "alarms"
     ],
     "background": {
         "service_worker": "background.js"
