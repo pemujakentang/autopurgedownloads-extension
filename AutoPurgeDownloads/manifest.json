@@ -1,8 +1,8 @@
 {
     "name": "Downloads Auto-Purger",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Automatically deletes local downloads and history on startup.",
-    "manifest_version": 3,
+    "manifest_version": 4,
     "permissions": [
         "downloads",
         "storage",
